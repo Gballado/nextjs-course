@@ -5,7 +5,12 @@ function ClientProjectsPage() {
 
   function loadProject() {
     // Load data
+    // Another way to navigate, instead of using link
+    // Using router push
     // router.replace - makes the user not able to go back
+    // ({ pathname '/clients/[id]/[clientprojectid]',
+    // query: {id: 'max', clientprojectid: 'projecta'}
+    // });
     router.push('/clients/max/projecta');
   }
 
